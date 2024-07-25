@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "midi": "^2.0.0",
+    "rtpmidi": "^1.0.0"
+  }
+}
