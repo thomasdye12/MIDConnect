@@ -1,0 +1,3 @@
+sudo systemctl daemon-reload
+sudo systemctl start midi-service
+sudo systemctl enable midi-service

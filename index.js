@@ -13,7 +13,8 @@ const port = 5003;
 const session = rtpmidi.manager.createSession({
     localName: 'Network To USB MIDI',
     bonjourName: 'Network To USB MIDI',
-    port: 5004
+    port: 5004,
+    
 });
 
 let output;
