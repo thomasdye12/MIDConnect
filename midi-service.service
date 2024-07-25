@@ -1,0 +1,15 @@
+[Unit]
+Description=MIDI Network to USB Service
+After=network.target
+
+[Service]
+ExecStart=/root/.nvm/versions/node/v16.20.2/bin/node /var/MIDConnect/index.js
+Restart=always
+User=nobody
+Group=nogroup
+Environment=PATH=/usr/bin:/usr/local/bin
+Environment=NODE_ENV=production
+WorkingDirectory=/var/MIDConnect
+
+[Install]
+WantedBy=multi-user.target
